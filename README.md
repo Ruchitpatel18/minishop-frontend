@@ -16,3 +16,11 @@ Cart System: Items can be added, quantities updated, and removed from the cart.
 Persistence: Cart data persists across sessions using localStorage.
 
 Modern UI: The application is fully responsive across all screen sizes (mobile, tablet, desktop) and follows modern design principles.
+
+🔗 Submission & Deliverables
+This project adheres to all Repository and Deployment Hard Requirements.
+
+Deliverable      Status        Link
+1.GitHub Repository URL(https://github.com/Ruchitpatel18/minishop-frontend.git)
+2.Live Deployed Site URL(https://minishop-frontend-pi.vercel.app)
+3.Pull Request (PR)Link(https://github.com/Ruchitpatel18/minishop-frontend/pull/1)
