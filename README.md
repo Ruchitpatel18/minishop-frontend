@@ -1,26 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
+🛒 MiniShop Frontend
+This is a responsive, frontend-only e-commerce mini application built using Next.js, TypeScript, and Tailwind CSS. It consumes data from the Fake Store API  and manages all application state client-side.
 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✅ Core Features Implemented
+The application successfully meets all core requirements:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Product Browsing: Displays a list of all products fetched from the API.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Filtering & Sorting: Includes category-based filtering, search, and sorting by price and rating.
 
-## Learn More
+Product Details: Each product has a dedicated detail page.
 
+Cart System: Items can be added, quantities updated, and removed from the cart.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Persistence: Cart data persists across sessions using localStorage.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Modern UI: The application is fully responsive across all screen sizes (mobile, tablet, desktop) and follows modern design principles.
