@@ -42,3 +42,11 @@ npm run dev
 
 The application will be accessible at the local address provided in terminal 
 (usually http://localhost:3000).
+
+3. Build Command
+To create a production-ready build (used by Vercel):
+
+npm run build
+
+⚠️Note on Development Environment
+During local development (npm run dev), you may encounter persistent compiler warnings (Invalid source map) related to the Turbopack bundler. This issue is environmental and does not affect the final functionality or the live site deployed on Vercel.
