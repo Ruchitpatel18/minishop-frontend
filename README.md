@@ -24,3 +24,13 @@ Deliverable      Status        Link
 1.GitHub Repository URL(https://github.com/Ruchitpatel18/minishop-frontend.git)
 2.Live Deployed Site URL(https://minishop-frontend-pi.vercel.app)
 3.Pull Request (PR)Link(https://github.com/Ruchitpatel18/minishop-frontend/pull/1)
+
+⚙️Running Locally & Build Instructions
+
+Prerequisites
+You must have Node.js (v18+) and npm installed.
+
+1.Installation
+Install all project dependencies:
+
+npm install
