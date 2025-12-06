@@ -1,30 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🛒 MiniShop Frontend
+This is a responsive, frontend-only e-commerce mini application built using Next.js, TypeScript, and Tailwind CSS. It consumes data from the Fake Store API  and manages all application state client-side.
 
-## Getting Started
 
-First, run the development server:
+✅ Core Features Implemented
+The application successfully meets all core requirements:
 
-```bash
+Product Browsing: Displays a list of all products fetched from the API.
+
+Filtering & Sorting: Includes category-based filtering, search, and sorting by price and rating.
+
+Product Details: Each product has a dedicated detail page.
+
+Cart System: Items can be added, quantities updated, and removed from the cart.
+
+Persistence: Cart data persists across sessions using localStorage.
+
+Modern UI: The application is fully responsive across all screen sizes (mobile, tablet, desktop) and follows modern design principles.
+
+🔗 Submission & Deliverables
+This project adheres to all Repository and Deployment Hard Requirements.
+
+Deliverable      Status        Link
+1.GitHub Repository URL(https://github.com/Ruchitpatel18/minishop-frontend.git)
+2.Live Deployed Site URL(https://minishop-frontend-pi.vercel.app)
+3.Pull Request (PR)Link(https://github.com/Ruchitpatel18/minishop-frontend/pull/1)
+
+⚙️Running Locally & Build Instructions
+
+Prerequisites
+You must have Node.js (v18+) and npm installed.
+
+1.Installation
+Install all project dependencies:
+
+npm install
+
+2. Run Development Server
+To run the application in development mode:
+
 npm run dev
 
+The application will be accessible at the local address provided in terminal 
+(usually http://localhost:3000).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Build Command
+To create a production-ready build (used by Vercel):
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm run build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⚠️Note on Development Environment
+During local development (npm run dev), you may encounter persistent compiler warnings (Invalid source map) related to the Turbopack bundler. This issue is environmental and does not affect the final functionality or the live site deployed on Vercel.
