@@ -34,3 +34,11 @@ You must have Node.js (v18+) and npm installed.
 Install all project dependencies:
 
 npm install
+
+2. Run Development Server
+To run the application in development mode:
+
+npm run dev
+
+The application will be accessible at the local address provided in terminal 
+(usually http://localhost:3000).
